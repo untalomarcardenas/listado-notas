@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+h1, h2 {
+    text-align: center;
+}
+
+#container {
+    margin-top: 40px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
+
+/*? ~~ Footer ~~  */
+.footer{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    padding: 1rem  0;
+}
+
+.footer__container{
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: 100;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #303030;
+}
+
+.footer__text{
+    margin: 0 5px; 
+    width: auto;
+    text-align: center;
+}
+
+.footer__link{
+    font-weight: 600;
+    text-decoration: none !important;
+    cursor: pointer;
+    position: relative;
+    font-size: 2.4rem;
+    font-family: 'Clicker script', cursive;
+    outline: none; 
+    text-align: center;
+}
